@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: rgb(236, 243, 244);
+    /* background-color: rgb(236, 243, 244); */
+    background-color: rgb(242, 247, 247);
 }
 
 a {
@@ -21,7 +22,13 @@ a:hover {
 
 .card {
     background-color: rgb(232, 232, 232);
+    /* background-color: rgb(236, 243, 244); */
+
     box-shadow: 0 0 5px rgb(105, 105, 105);
+}
+
+.card:hover {
+    transform: scale(1.02);
 }
 
 .title {
