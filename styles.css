@@ -8,7 +8,6 @@
 }
 
 body {
-    /* background-color: rgb(236, 243, 244); */
     background-color: rgb(242, 247, 247);
 }
 
@@ -22,8 +21,6 @@ a:hover {
 
 .card {
     background-color: rgb(232, 232, 232);
-    /* background-color: rgb(236, 243, 244); */
-
     box-shadow: 0 0 5px rgb(105, 105, 105);
 }
 
@@ -34,30 +31,6 @@ a:hover {
 .title {
     text-align: center;
     margin-bottom: 1rem;
-}
-
-#navbar {
-    position: fixed;
-    left: 10vw;
-    z-index: 1;
-    /* color: lightblue; */
-}
-
-/* #welcome-section {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-} */
-
-#heading {
-    /* position: relative; */
-    top: 50vh;
-    /* color: lightblue; */
-    /* background-color: darkblue; */
-}
-#projects {
-    text-align: center;
-    /* background-color: darkblue; */
 }
 
 #grid-container {
@@ -76,18 +49,11 @@ img {
 .project-tile {
     position: relative;
     top: 0;
-    /* color: lightblue; */
-}
-
-.project-tile a {
-    /* color: lightblue; */
 }
 
 #contact {
     text-align: center;
     padding-bottom: 5vw;
-    /* background-color: lightblue; */
-    /* color: darkblue; */
 }
 
 @media screen and (max-width: 768px) {
